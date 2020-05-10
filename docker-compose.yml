@@ -15,7 +15,7 @@ services:
 
   app:
     build:
-      context: ./php
+      context: .
       args:
         TZ: ${TZ:-invalid}
     volumes:
