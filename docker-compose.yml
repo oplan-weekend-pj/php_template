@@ -21,7 +21,7 @@ services:
     volumes:
       - ./src:/work
       - ./logs:/var/log/php
-      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./php.ini:/usr/local/etc/php/php.ini
     working_dir: /work
     environment:
       DB_CONNECTION: mysql
