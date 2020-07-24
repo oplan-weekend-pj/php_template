@@ -22,6 +22,7 @@ services:
       - ./src:/work
       - ./logs:/var/log/php
       - ./php.ini:/usr/local/etc/php/php.ini
+      - /work/vendor
     working_dir: /work
     environment:
       DB_CONNECTION: mysql
