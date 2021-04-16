@@ -67,3 +67,9 @@ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 以下のコマンドを実行
 
 docker-compose build
+
+
+4. dockerコンテナの立ち上げ
+以下のコマンドを実行
+
+docker-compose up
